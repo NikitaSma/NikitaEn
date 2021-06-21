@@ -1,12 +1,12 @@
 let configuration = {
     totalPrice: 0,
     products: {
-        product1: { price: 25, isSelected: false },
-        product2: { price: 35, isSelected: false },
-        product3: { price: 125, isSelected: false },
-        product4: { price: 40, isSelected: false },
-        product5: { price: 75, isSelected: false },
-        product6: { price: 200, isSelected: false },
+        product1: { price: 10, isSelected: false },
+        product2: { price: 15, isSelected: false },
+        product3: { price: 100, isSelected: false },
+        product4: { price: 5, isSelected: false },
+        product5: { price: 25, isSelected: false },
+        product6: { price: 50, isSelected: false },
     },
 };
 
