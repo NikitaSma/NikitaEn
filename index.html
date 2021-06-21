@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Charity for Nikita</title>
+
+    <meta property="og:title" content="Charity for Nikita">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="https://helpnikita-en.netlify.app/img/help-nikita-sma-full.png">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="https://helpnikita-en.netlify.app/img/favicon.ico" rel="icon">
+    <link href="https://helpnikita-en.netlify.app/img/favicon.ico" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="./css/css" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/modal-video.min.css" rel="stylesheet">
+    <link href="./css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./css/style.css" rel="stylesheet">
+    <style>
+        #vase { left: 0px; margin-top: 5%; z-index: 1; position: relative; width: 100%}
+        #product1Layer { left: 20%; top: 30%; z-index: 10; position: absolute; width: 25%;}
+        #product2Layer { left: 38%; top: 30%; z-index: 9; position: absolute; width: 25%;}
+        #product3Layer { left: 57%; top: 30%; z-index: 6; position: absolute; width: 25%;}
+        #product4Layer { left: 20%; top: 46%; z-index: 8; position: absolute; width: 25%;}
+        #product5Layer { left: 39%; top: 46%; z-index: 5; position: absolute; width: 25%;}
+        #product6Layer { left: 57%; top: 46%; z-index: 7; position: absolute; width: 25%;}
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD29WFPGNW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ESMELZ20JS');
+    </script>
+</head>
+<body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0" cz-shortcut-listen="true" style="background-image: url(./img/background.svg); background-repeat: repeat; background-size: 300px;">
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container aos-init aos-animate" data-aos="fade-in">
+
+
+        <div class="container basket aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row justify-content-center">
+                <h1>С миру по нитке - поможем Никитке</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center textbox">
+                    <h2 class="mb-0 text-center">Nikita is not able to walk or run, but he is a great artist!</h2>
+                    <h2 class="mb-0 text-center">Choose a gift for him&nbsp;❤️ Save life!</h2>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img id="amelia" src="./img/Nikita.png" alt="Nikita photo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6 d-flex flex-column align-content-center justify-content-between align-items-center">
+                    <div class="flex">
+                        <h2><a href="https://www.instagram.com/help.nikita.sma1/">@help.nikita.sma1</a></h2>
+                        <br/>
+                        <h2><a href="http://help.spasinikitu.com/">Website</a></h2>
+                        <br/>
+                        <h2>
+                            <a href="https://taplink.cc/help.nikita.sma1">Taplink</a>
+                        </h2>
+                        <br>
+                        <h3>
+                            <span>Charity amount</span>
+                            <span id="totalPrice">0</span>
+                            <span>$</span>
+                        </h3>
+                        <h3 id="thanks" style="display: none;">
+                            <span>Thank you for your kind heart!&nbsp;❤️</span>
+                        </h3>
+
+                        <div style="padding-top: 20px">
+                            <a href="https://helpnikita-en.netlify.app/#" onclick="onDonateClick()" class="btn-get-started scrollto" style="z-index: 3">Donate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="" id="product1" onclick="onProductClick('product1')">
+                        <img id="img_product1" class="pulse" src="./img/Acrylic.svg">
+                        <div>
+                            <span id="product1Price">25</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                    <div class="" id="product2" onclick="onProductClick('product2')">
+                        <img id="img_product2" class="pulse" src="./img/Brush.svg">
+                        <div>
+                            <span id="product2Price">35</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                    <div class="" id="product3" onclick="onProductClick('product3')">
+                        <img id="img_product3" class="pulse" src="./img/Palette.svg">
+                        <div>
+                            <span id="product3Price">125</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 d-flex flex-column align-content-center justify-content-between align-items-center">
+
+                    <div class="wrapper">
+                        <img id="vase" src="./img/Easel.svg">
+                        <img id="product1Layer" style="display:none" src="./img/Acrylic_small.png">
+                        <img id="product2Layer" style="display:none" src="./img/Brush_small.png">
+                        <img id="product3Layer" style="display:none" src="./img/Palette_small.png">
+                        <img id="product4Layer" style="display:none" src="./img/Paper_small.png">
+                        <img id="product5Layer" style="display:none" src="./img/Pencils_small.png">
+                        <img id="product6Layer" style="display:none" src="./img/Watercolor_small.png">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="" id="product4" onclick="onProductClick('product4')">
+                        <img id="img_product4" class="pulse" src="./img/Paper.svg">
+                        <div>
+                            <span id="product4Price">40</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                    <div class="" id="product5" onclick="onProductClick('product5')">
+                        <img id="img_product5" class="pulse" src="./img/Pencils.svg">
+                        <div>
+                            <span id="product5Price">75</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                    <div class="" id="product6" onclick="onProductClick('product6')">
+                        <img id="img_product6" class="pulse" src="./img/Watercolor.svg">
+                        <div>
+                            <span id="product6Price">200</span>
+                            <span>грн</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 d-flex flex-column justify-content-center textbox">
+                    <p class="mb-0 text-center">
+                        At his age about 2, Nikita is a very strong boy, but he cannot walk because of lethal disease SMA1,
+                        it takes life of kids all over the world😔.
+                        Parents do their best to save life of their only son and find money! You can help too😊
+                        We've got 40% so far!
+                        If we work together we can save life!
+                    </p>
+                    <div class="align-self-center text-left">
+                    </div>
+
+                    <p class="mb-0 text-center">
+                        <small>
+
+                        </small>
+                    </p>
+                    <p class="mb-0 text-center">
+                        <b></b>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
+
+    </div>
+</section><!-- End Hero Section -->
+
+    <!-- Vendor JS Files -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/validate.js"></script>
+    <script src="./js/modal-video.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/superfish.min.js"></script>
+    <script src="./js/hoverIntent.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
